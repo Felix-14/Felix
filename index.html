@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix - Computer Science Student</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="#home" class="logo">Portfolio</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1>Hi There!</h1>
+                <h2>I'm <span class="highlight">Felix,</span></h2>
+                <p>A <span id="typewriter"></span></p>
+                <a href="#about" class="btn">Know More</a>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="image.png" alt="Felix's Photo">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="image.png" alt="About Felix">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p>I am a Computer Science (Cyber Security) student at Asia Pacific University with a strong interest in programming. I enjoy learning new technologies and expanding my knowledge. I'm eager to develop my technical skills and love working and communicating with people.</p>
+                    
+                    <div class="about-info">
+                        <div>
+                            <h4>Name:</h4>
+                            <p>Felix</p>
+                        </div>
+                        <div>
+                            <h4>Email:</h4>
+                            <p>felixonly14@gmail.com</p>
+                        </div>
+                        <div>
+                            <h4>Education:</h4>
+                            <p>Asia Pacific University</p>
+                        </div>
+                        <div>
+                            <h4>Location:</h4>
+                            <p>Bukit Jalil, Malaysia</p>
+                        </div>
+                    </div>
+                    
+                    <a href="Felix.pdf" class="btn" download>Download CV <i class="ph-bold ph-download-simple"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">My Skills</h2>
+            
+            <div class="tabs">
+                <div class="tab active" onclick="showContent('skills-content')">Skills</div>
+                <div class="tab" onclick="showContent('tools-content')">Tools</div>
+                <div class="tab" onclick="showContent('certifications-content')">Certifications</div>
+            </div>
+            
+            <div id="skills-content" class="tab-content active">
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+                        <h3>Python</h3>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" alt="Java">
+                        <h3>Java</h3>
+                        <p>Basic</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5969/5969204.png" alt="C">
+                        <h3>C</h3>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS">
+                        <h3>CSS</h3>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML">
+                        <h3>HTML</h3>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+                        <h3>JavaScript</h3>
+                        <p>Basic</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="SQL">
+                        <h3>SQL</h3>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" alt="PHP">
+                        <h3>PHP</h3>
+                        <p>Basic</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tools-content" class="tab-content">
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="VS Code">
+                        <h3>VS Code</h3>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="Visual Studio">
+                        <h3>Visual Studio</h3>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="NetBeans">
+                        <h3>NetBeans</h3>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="SQL Server">
+                        <h3>SQL Server</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="certifications-content" class="tab-content">
+                <div class="skills-grid">
+                    <div class="cert-card" data-aos="fade-up">
+                        <img src="SRE_Cert.png" alt="SRE Certification">
+                        <div class="cert-info">
+                            <h3>Switching and Routing Essentials</h3>
+                            <a href="#" class="cert-link"><i class="ph-fill ph-arrow-square-out"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="APAC_Cert.jpg" alt="APAC Certification">
+                        <div class="cert-info">
+                            <h3>Data Analysis Workshop</h3>
+                            <a href="#" class="cert-link"><i class="ph-fill ph-arrow-square-out"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="CTF_Cert.jpg" alt="CTF Certification">
+                        <div class="cert-info">
+                            <h3>CTF Competition</h3>
+                            <a href="#" class="cert-link"><i class="ph-fill ph-arrow-square-out"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="AMCF_Cert.png" alt="AMCF Certification">
+                        <div class="cert-info">
+                            <h3>AMCF Volunteer</h3>
+                            <a href="#" class="cert-link"><i class="ph-fill ph-arrow-square-out"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <img src="project1.png" alt="Linux Email Server Deveopment">
+                    <div class="project-info">
+                        <h3>Linux Email Server Deveopment</h3>
+                        <p>A project to deploy a secure email system on Rocky Linux and Ubuntu using Postfix, Dovecot, and SSL/TLS encryption.</p>
+                        <p class="tools"><strong>Tools:</strong> Rocky Linux and Ubuntu</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="Java.png" alt="Purchase Manager">
+                    <div class="project-info">
+                        <h3>Purchase Manager</h3>
+                        <p>An UI based program to show the Purchse Manager's ability to add, modify, and view requisition, items, and order </p>
+                        <p class="tools"><strong>Tools:</strong> Java OOP</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="cpp.png" alt="E-Commerce Implementation">
+                    <div class="project-info">
+                        <h3>E-Commerce Implementation</h3>
+                        <p>Using C++ programming language to implement E-Commerce by using array.</p>
+                        <p class="tools"><strong>Tools:</strong> C++</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="CSLLT.png" alt="Parcel Price Calculation">
+                    <div class="project-info">
+                        <h3>Parcel Price Calculation</h3>
+                        <p>An assembly program to calculate the price of a parcel based on the size and weight of the parcel.</p>
+                        <p class="tools"><strong>Tools:</strong> GUI Turbo Assembler (TASM)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">Contact Me</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="ph ph-map-pin"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Bukit Jalil, Malaysia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="ph ph-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(+60)11-25593314</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="ph ph-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:felixonly14@gmail.com">felixonly14@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="#"><i class="ph ph-github-logo"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <i class="ph ph-user"></i>
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <i class="ph ph-envelope-simple"></i>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <i class="ph ph-chat-centered-text"></i>
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message <i class="ph-fill ph-paper-plane-tilt"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; <span id="year"></span> Felix. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
